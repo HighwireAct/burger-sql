@@ -1,6 +1,3 @@
-const express = require("express");
-const connection = require("./config/connection.js");
-
 const PORT = process.env.PORT || 8080;
 
 const app = express();
