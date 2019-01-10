@@ -1,15 +1,16 @@
 const express = require("express");
 const burger = require("../models/burger.js");
 
+const router = express.Router();
 
-const router = function(app) {
-  app.get('/', (req, res) => {
+router.get('/', (req, res) => {
+  
+});
 
-  });
-  app.post('/', (req, res) => {
+router.post('/', (req, res) => {
 
-  });
-  app.put('/', (req, res) => {
+});
 
-  });
-}
+router.put('/', (req, res) => {
+
+});
